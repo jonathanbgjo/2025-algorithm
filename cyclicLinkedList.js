@@ -1,9 +1,4 @@
-class ListNode {
-  constructor(val, next = null) {
-    this.val = val;
-    this.next = next;
-  }
-}
+import ListNode from './classes/listNode.js'
 const headTrue = new ListNode(3);
 const node2 = new ListNode(2);
 const node0 = new ListNode(0);
